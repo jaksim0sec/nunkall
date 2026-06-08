@@ -17,7 +17,7 @@ html {
   padding: 0;
   overflow: hidden;
   font-size: 21px;
-  background: radial-gradient(circle at 30% 20%, #0b0b0b, #000);
+  background: black;
 }
 
 main,
