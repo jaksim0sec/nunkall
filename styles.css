@@ -1,0 +1,116 @@
+/*야호*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.test > * {
+  border: 1px solid #ff00007a;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 21px;
+  background: radial-gradient(circle at 30% 20%, #0b0b0b, #000);
+}
+
+main,
+body,
+html {
+  overflow: hidden;
+}
+
+@media (max-width: 550px) {
+  body,
+  html {
+    font-size: 5.5vw !important;
+  }
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width:100%;
+  max-width: 20rem;
+  background: linear-gradient(180deg, #0a0806, #050403);
+  font-family: "Pretendard Variable", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 0.15em solid #1a120e;
+  box-shadow: inset 0 0 1.5em #000;
+}
+
+.item{
+  height:1.5em;
+  aspect-ratio:1;
+  margin:0 0.25em;
+  filter: contrast(1.5) brightness(0.85) saturate(1);
+}
+
+.box{
+  background: linear-gradient(145deg, #443731, #2d2826);
+  box-shadow:
+    inset -0.15em -0.15em 0.2em #000000aa,
+    inset 0.15em 0.15em 0.2em #2a1a12aa,
+    0 0 0.4em #000;
+  border-radius:0.5em;
+}
+
+.inbox{
+  background:#32221d;
+  box-shadow:
+    inset 0.2em 0.2em 0.5em #000000cc,
+    inset -0.1em -0.1em 0.15em #3a2418aa;
+  border-radius:0.5em;
+}
+
+header{
+  width:auto;
+  padding:0.5rem;
+  margin:0.25em;
+  border-radius:0.5rem;
+  display:flex;
+  border:0.12em solid #000;
+  background: linear-gradient(90deg, #2a0f0a, #1a0a06);
+  box-shadow:
+    inset 0 0 0.8em #000,
+    0 0 0.3em #000;
+}
+
+header section{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  gap:0.5em;
+}
+
+header section > div{
+  font-size:0.95em;
+  color:#e6d3c8;
+  height:fit-content;
+  display:flex;
+  align-items:center;
+  padding:0.35em;
+  border-radius:0.25em;
+  font-weight:600;
+  gap:0.25em;
+  justify-content:space-between;
+  border:0.1em solid #000;
+  background: linear-gradient(180deg, #1a1412, #0d0a09);
+  box-shadow: inset 0 0 0.4em #000;
+}
+
+body {
+  text-shadow: 0 0 0.02em #000;
+}
